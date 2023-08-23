@@ -22,301 +22,307 @@ class MyApp extends StatelessWidget {
         SizedBox(height: 24),
         new_account(),
         SizedBox(height: 24),
-        Container(
-            width: 325,
-            height: 380,
-            child: Column(
-                mainAxisSize: MainAxisSize.min,
-                mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                crossAxisAlignment: CrossAxisAlignment.center,
-                children: [
-                  menu_personas(),
-                  Column(
-                    children: [
-                      Container(
-                          width: 286,
-                          height: 58,
-                          child: Row(
-                              mainAxisSize: MainAxisSize.min,
-                              mainAxisAlignment: MainAxisAlignment.start,
-                              crossAxisAlignment: CrossAxisAlignment.center,
-                              children: [
-                                Container(
-                                    width: 40,
-                                    height: 40,
-                                    clipBehavior: Clip.antiAlias,
-                                    decoration: ShapeDecoration(
-                                      color: Colors.white,
-                                      image: DecorationImage(
-                                          image: AssetImage(
-                                              "assets/img/Currency Crush Value.png"),
-                                          fit: BoxFit.contain),
-                                      shape: RoundedRectangleBorder(
-                                        side: BorderSide(
-                                            width: 0.25,
-                                            color: Color(0xFFCCD9E3)),
-                                        borderRadius: BorderRadius.circular(40),
-                                      ),
-                                    )),
-                                SizedBox(width: 15),
-                                Text(
-                                  'Deborah Sanchez',
-                                  style: TextStyle(
-                                    color: Colors.black,
-                                    fontSize: 14,
-                                    fontFamily: 'Montserrat',
-                                    fontWeight: FontWeight.w400,
-                                    height: 1.71,
-                                  ),
-                                ),
-                                SizedBox(
-                                  width: 95,
-                                ),
-                                Container(
-                                    width: 26,
-                                    height: 26,
-                                    clipBehavior: Clip.antiAlias,
-                                    decoration: BoxDecoration(
-                                        color: Colors.transparent,
-                                        image: DecorationImage(
-                                            image: AssetImage(
-                                                "assets/img/more-overflow-menu-horiz.png"),
-                                            fit: BoxFit.contain)))
-                              ])),
-                      SizedBox(
-                        height: 5,
-                      ),
-                      Container(
-                          width: 286,
-                          height: 58,
-                          child: Row(
-                              mainAxisSize: MainAxisSize.min,
-                              mainAxisAlignment: MainAxisAlignment.start,
-                              crossAxisAlignment: CrossAxisAlignment.center,
-                              children: [
-                                Container(
-                                    width: 40,
-                                    height: 40,
-                                    clipBehavior: Clip.antiAlias,
-                                    decoration: ShapeDecoration(
-                                      color: Colors.white,
-                                      image: DecorationImage(
-                                          image: AssetImage(
-                                              "assets/img/Currency Crush Analytics.png"),
-                                          fit: BoxFit.contain),
-                                      shape: RoundedRectangleBorder(
-                                        side: BorderSide(
-                                            width: 0.25,
-                                            color: Color(0xFFCCD9E3)),
-                                        borderRadius: BorderRadius.circular(40),
-                                      ),
-                                    )),
-                                SizedBox(width: 15),
-                                Text(
-                                  'Melanie Ward',
-                                  style: TextStyle(
-                                    color: Colors.black,
-                                    fontSize: 14,
-                                    fontFamily: 'Montserrat',
-                                    fontWeight: FontWeight.w400,
-                                    height: 1.71,
-                                  ),
-                                ),
-                                SizedBox(
-                                  width: 118,
-                                ),
-                                Container(
-                                    width: 26,
-                                    height: 26,
-                                    clipBehavior: Clip.antiAlias,
-                                    decoration: BoxDecoration(
-                                        color: Colors.transparent,
-                                        image: DecorationImage(
-                                            image: AssetImage(
-                                                "assets/img/more-overflow-menu-horiz.png"),
-                                            fit: BoxFit.contain)))
-                              ])),
-                      SizedBox(
-                        height: 5,
-                      ),
-                      Container(
-                          width: 286,
-                          height: 58,
-                          child: Row(
-                              mainAxisSize: MainAxisSize.min,
-                              mainAxisAlignment: MainAxisAlignment.start,
-                              crossAxisAlignment: CrossAxisAlignment.center,
-                              children: [
-                                Container(
-                                    width: 40,
-                                    height: 40,
-                                    clipBehavior: Clip.antiAlias,
-                                    decoration: ShapeDecoration(
-                                      color: Colors.white,
-                                      image: DecorationImage(
-                                          image: AssetImage(
-                                              "assets/img/Currency Crush Lock 1.png"),
-                                          fit: BoxFit.contain),
-                                      shape: RoundedRectangleBorder(
-                                        side: BorderSide(
-                                            width: 0.25,
-                                            color: Color(0xFFCCD9E3)),
-                                        borderRadius: BorderRadius.circular(40),
-                                      ),
-                                    )),
-                                SizedBox(width: 15),
-                                Text(
-                                  'Adrienne Huffman',
-                                  style: TextStyle(
-                                    color: Colors.black,
-                                    fontSize: 14,
-                                    fontFamily: 'Montserrat',
-                                    fontWeight: FontWeight.w400,
-                                    height: 1.71,
-                                  ),
-                                ),
-                                SizedBox(
-                                  width: 90,
-                                ),
-                                Container(
-                                    width: 26,
-                                    height: 26,
-                                    clipBehavior: Clip.antiAlias,
-                                    decoration: BoxDecoration(
-                                        color: Colors.transparent,
-                                        image: DecorationImage(
-                                            image: AssetImage(
-                                                "assets/img/more-overflow-menu-horiz.png"),
-                                            fit: BoxFit.contain)))
-                              ])),
-                      SizedBox(
-                        height: 5,
-                      ),
-                      Container(
-                          width: 286,
-                          height: 58,
-                          child: Row(
-                              mainAxisSize: MainAxisSize.min,
-                              mainAxisAlignment: MainAxisAlignment.start,
-                              crossAxisAlignment: CrossAxisAlignment.center,
-                              children: [
-                                Container(
-                                    width: 40,
-                                    height: 40,
-                                    clipBehavior: Clip.antiAlias,
-                                    decoration: ShapeDecoration(
-                                      color: Colors.white,
-                                      image: DecorationImage(
-                                          image: AssetImage(
-                                              "assets/img/Currency Crush Statistics.png"),
-                                          fit: BoxFit.contain),
-                                      shape: RoundedRectangleBorder(
-                                        side: BorderSide(
-                                            width: 0.25,
-                                            color: Color(0xFFCCD9E3)),
-                                        borderRadius: BorderRadius.circular(40),
-                                      ),
-                                    )),
-                                SizedBox(width: 15),
-                                Text(
-                                  'Emily Ibarra',
-                                  style: TextStyle(
-                                    color: Colors.black,
-                                    fontSize: 14,
-                                    fontFamily: 'Montserrat',
-                                    fontWeight: FontWeight.w400,
-                                    height: 1.71,
-                                  ),
-                                ),
-                                SizedBox(
-                                  width: 130,
-                                ),
-                                Container(
-                                    width: 26,
-                                    height: 26,
-                                    clipBehavior: Clip.antiAlias,
-                                    decoration: BoxDecoration(
-                                        color: Colors.transparent,
-                                        image: DecorationImage(
-                                            image: AssetImage(
-                                                "assets/img/more-overflow-menu-horiz.png"),
-                                            fit: BoxFit.contain)))
-                              ])),
-                      SizedBox(
-                        height: 5,
-                      ),
-                      Container(
-                          width: 286,
-                          height: 55,
-                          child: Row(
-                              mainAxisSize: MainAxisSize.min,
-                              mainAxisAlignment: MainAxisAlignment.start,
-                              crossAxisAlignment: CrossAxisAlignment.center,
-                              children: [
-                                Container(
-                                    width: 40,
-                                    height: 40,
-                                    clipBehavior: Clip.antiAlias,
-                                    decoration: ShapeDecoration(
-                                      color: Colors.white,
-                                      image: DecorationImage(
-                                          image: AssetImage(
-                                              "assets/img/Currency Crush Investment.png"),
-                                          fit: BoxFit.contain),
-                                      shape: RoundedRectangleBorder(
-                                        side: BorderSide(
-                                            width: 0.25,
-                                            color: Color(0xFFCCD9E3)),
-                                        borderRadius: BorderRadius.circular(40),
-                                      ),
-                                    )),
-                                SizedBox(width: 15),
-                                Text(
-                                  'Daniel Ferrell',
-                                  style: TextStyle(
-                                    color: Colors.black,
-                                    fontSize: 14,
-                                    fontFamily: 'Montserrat',
-                                    fontWeight: FontWeight.w400,
-                                    height: 1.71,
-                                  ),
-                                ),
-                                SizedBox(
-                                  width: 122,
-                                ),
-                                Container(
-                                    width: 26,
-                                    height: 26,
-                                    clipBehavior: Clip.antiAlias,
-                                    decoration: BoxDecoration(
-                                        color: Colors.transparent,
-                                        image: DecorationImage(
-                                            image: AssetImage(
-                                                "assets/img/more-overflow-menu-horiz.png"),
-                                            fit: BoxFit.contain)))
-                              ]))
-                    ],
-                  )
-                ]),
-            padding: const EdgeInsets.only(top: 10),
-            decoration: ShapeDecoration(
-              color: Colors.white,
-              shape: RoundedRectangleBorder(
-                side: BorderSide(width: 0.50, color: Color(0xFFF4F7F9)),
-                borderRadius: BorderRadius.circular(10),
-              ),
-              shadows: [
-                BoxShadow(
-                  color: Color(0x1E000000),
-                  blurRadius: 16,
-                  offset: Offset(0, 8),
-                  spreadRadius: -2,
-                )
-              ],
-            )),
+        contenido(),
         menu_inferior(),
       ])),
     );
+  }
+}
+
+class contenido extends StatelessWidget {
+  const contenido({
+    super.key,
+  });
+
+  @override
+  Widget build(BuildContext context) {
+    return Container(
+        width: 325,
+        height: 380,
+        child: Column(
+            mainAxisSize: MainAxisSize.min,
+            mainAxisAlignment: MainAxisAlignment.spaceBetween,
+            crossAxisAlignment: CrossAxisAlignment.center,
+            children: [
+              menu_personas(),
+              Column(
+                children: [
+                  Container(
+                      width: 286,
+                      height: 58,
+                      child: Row(
+                          mainAxisSize: MainAxisSize.min,
+                          mainAxisAlignment: MainAxisAlignment.start,
+                          crossAxisAlignment: CrossAxisAlignment.center,
+                          children: [
+                            Container(
+                                width: 40,
+                                height: 40,
+                                clipBehavior: Clip.antiAlias,
+                                decoration: ShapeDecoration(
+                                  color: Colors.white,
+                                  image: DecorationImage(
+                                      image: AssetImage(
+                                          "assets/img/Currency Crush Value.png"),
+                                      fit: BoxFit.contain),
+                                  shape: RoundedRectangleBorder(
+                                    side: BorderSide(
+                                        width: 0.25, color: Color(0xFFCCD9E3)),
+                                    borderRadius: BorderRadius.circular(40),
+                                  ),
+                                )),
+                            SizedBox(width: 15),
+                            Text(
+                              'Deborah Sanchez',
+                              style: TextStyle(
+                                color: Colors.black,
+                                fontSize: 14,
+                                fontFamily: 'Montserrat',
+                                fontWeight: FontWeight.w400,
+                                height: 1.71,
+                              ),
+                            ),
+                            SizedBox(
+                              width: 95,
+                            ),
+                            Container(
+                                width: 26,
+                                height: 26,
+                                clipBehavior: Clip.antiAlias,
+                                decoration: BoxDecoration(
+                                    color: Colors.transparent,
+                                    image: DecorationImage(
+                                        image: AssetImage(
+                                            "assets/img/more-overflow-menu-horiz.png"),
+                                        fit: BoxFit.contain)))
+                          ])),
+                  SizedBox(
+                    height: 5,
+                  ),
+                  Container(
+                      width: 286,
+                      height: 58,
+                      child: Row(
+                          mainAxisSize: MainAxisSize.min,
+                          mainAxisAlignment: MainAxisAlignment.start,
+                          crossAxisAlignment: CrossAxisAlignment.center,
+                          children: [
+                            Container(
+                                width: 40,
+                                height: 40,
+                                clipBehavior: Clip.antiAlias,
+                                decoration: ShapeDecoration(
+                                  color: Colors.white,
+                                  image: DecorationImage(
+                                      image: AssetImage(
+                                          "assets/img/Currency Crush Analytics.png"),
+                                      fit: BoxFit.contain),
+                                  shape: RoundedRectangleBorder(
+                                    side: BorderSide(
+                                        width: 0.25, color: Color(0xFFCCD9E3)),
+                                    borderRadius: BorderRadius.circular(40),
+                                  ),
+                                )),
+                            SizedBox(width: 15),
+                            Text(
+                              'Melanie Ward',
+                              style: TextStyle(
+                                color: Colors.black,
+                                fontSize: 14,
+                                fontFamily: 'Montserrat',
+                                fontWeight: FontWeight.w400,
+                                height: 1.71,
+                              ),
+                            ),
+                            SizedBox(
+                              width: 118,
+                            ),
+                            Container(
+                                width: 26,
+                                height: 26,
+                                clipBehavior: Clip.antiAlias,
+                                decoration: BoxDecoration(
+                                    color: Colors.transparent,
+                                    image: DecorationImage(
+                                        image: AssetImage(
+                                            "assets/img/more-overflow-menu-horiz.png"),
+                                        fit: BoxFit.contain)))
+                          ])),
+                  SizedBox(
+                    height: 5,
+                  ),
+                  Container(
+                      width: 286,
+                      height: 58,
+                      child: Row(
+                          mainAxisSize: MainAxisSize.min,
+                          mainAxisAlignment: MainAxisAlignment.start,
+                          crossAxisAlignment: CrossAxisAlignment.center,
+                          children: [
+                            Container(
+                                width: 40,
+                                height: 40,
+                                clipBehavior: Clip.antiAlias,
+                                decoration: ShapeDecoration(
+                                  color: Colors.white,
+                                  image: DecorationImage(
+                                      image: AssetImage(
+                                          "assets/img/Currency Crush Lock 1.png"),
+                                      fit: BoxFit.contain),
+                                  shape: RoundedRectangleBorder(
+                                    side: BorderSide(
+                                        width: 0.25, color: Color(0xFFCCD9E3)),
+                                    borderRadius: BorderRadius.circular(40),
+                                  ),
+                                )),
+                            SizedBox(width: 15),
+                            Text(
+                              'Adrienne Huffman',
+                              style: TextStyle(
+                                color: Colors.black,
+                                fontSize: 14,
+                                fontFamily: 'Montserrat',
+                                fontWeight: FontWeight.w400,
+                                height: 1.71,
+                              ),
+                            ),
+                            SizedBox(
+                              width: 90,
+                            ),
+                            Container(
+                                width: 26,
+                                height: 26,
+                                clipBehavior: Clip.antiAlias,
+                                decoration: BoxDecoration(
+                                    color: Colors.transparent,
+                                    image: DecorationImage(
+                                        image: AssetImage(
+                                            "assets/img/more-overflow-menu-horiz.png"),
+                                        fit: BoxFit.contain)))
+                          ])),
+                  SizedBox(
+                    height: 5,
+                  ),
+                  Container(
+                      width: 286,
+                      height: 58,
+                      child: Row(
+                          mainAxisSize: MainAxisSize.min,
+                          mainAxisAlignment: MainAxisAlignment.start,
+                          crossAxisAlignment: CrossAxisAlignment.center,
+                          children: [
+                            Container(
+                                width: 40,
+                                height: 40,
+                                clipBehavior: Clip.antiAlias,
+                                decoration: ShapeDecoration(
+                                  color: Colors.white,
+                                  image: DecorationImage(
+                                      image: AssetImage(
+                                          "assets/img/Currency Crush Statistics.png"),
+                                      fit: BoxFit.contain),
+                                  shape: RoundedRectangleBorder(
+                                    side: BorderSide(
+                                        width: 0.25, color: Color(0xFFCCD9E3)),
+                                    borderRadius: BorderRadius.circular(40),
+                                  ),
+                                )),
+                            SizedBox(width: 15),
+                            Text(
+                              'Emily Ibarra',
+                              style: TextStyle(
+                                color: Colors.black,
+                                fontSize: 14,
+                                fontFamily: 'Montserrat',
+                                fontWeight: FontWeight.w400,
+                                height: 1.71,
+                              ),
+                            ),
+                            SizedBox(
+                              width: 130,
+                            ),
+                            Container(
+                                width: 26,
+                                height: 26,
+                                clipBehavior: Clip.antiAlias,
+                                decoration: BoxDecoration(
+                                    color: Colors.transparent,
+                                    image: DecorationImage(
+                                        image: AssetImage(
+                                            "assets/img/more-overflow-menu-horiz.png"),
+                                        fit: BoxFit.contain)))
+                          ])),
+                  SizedBox(
+                    height: 5,
+                  ),
+                  Container(
+                      width: 286,
+                      height: 55,
+                      child: Row(
+                          mainAxisSize: MainAxisSize.min,
+                          mainAxisAlignment: MainAxisAlignment.start,
+                          crossAxisAlignment: CrossAxisAlignment.center,
+                          children: [
+                            Container(
+                                width: 40,
+                                height: 40,
+                                clipBehavior: Clip.antiAlias,
+                                decoration: ShapeDecoration(
+                                  color: Colors.white,
+                                  image: DecorationImage(
+                                      image: AssetImage(
+                                          "assets/img/Currency Crush Investment.png"),
+                                      fit: BoxFit.contain),
+                                  shape: RoundedRectangleBorder(
+                                    side: BorderSide(
+                                        width: 0.25, color: Color(0xFFCCD9E3)),
+                                    borderRadius: BorderRadius.circular(40),
+                                  ),
+                                )),
+                            SizedBox(width: 15),
+                            Text(
+                              'Daniel Ferrell',
+                              style: TextStyle(
+                                color: Colors.black,
+                                fontSize: 14,
+                                fontFamily: 'Montserrat',
+                                fontWeight: FontWeight.w400,
+                                height: 1.71,
+                              ),
+                            ),
+                            SizedBox(
+                              width: 122,
+                            ),
+                            Container(
+                                width: 26,
+                                height: 26,
+                                clipBehavior: Clip.antiAlias,
+                                decoration: BoxDecoration(
+                                    color: Colors.transparent,
+                                    image: DecorationImage(
+                                        image: AssetImage(
+                                            "assets/img/more-overflow-menu-horiz.png"),
+                                        fit: BoxFit.contain)))
+                          ]))
+                ],
+              )
+            ]),
+        padding: const EdgeInsets.only(top: 10),
+        decoration: ShapeDecoration(
+          color: Colors.white,
+          shape: RoundedRectangleBorder(
+            side: BorderSide(width: 0.50, color: Color(0xFFF4F7F9)),
+            borderRadius: BorderRadius.circular(10),
+          ),
+          shadows: [
+            BoxShadow(
+              color: Color(0x1E000000),
+              blurRadius: 16,
+              offset: Offset(0, 8),
+              spreadRadius: -2,
+            )
+          ],
+        ));
   }
 }
 

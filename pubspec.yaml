@@ -76,6 +76,7 @@ flutter:
       - assets/img/Currency Crush Statistics.png
       - assets/img/Currency Crush Investment.png
       - assets/img/Currency Crush Analytics.png
+      - assets/img/Currency Crush Password.png
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware
